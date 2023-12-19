@@ -79,7 +79,7 @@
             menuStrip2.Items.AddRange(new ToolStripItem[] { toolStripMenuItem5, toolStripMenuItem2, toolStripMenuItem6, toolStripMenuItem1 });
             menuStrip2.Location = new Point(0, 0);
             menuStrip2.Name = "menuStrip2";
-            menuStrip2.Size = new Size(156, 544);
+            menuStrip2.Size = new Size(128, 544);
             menuStrip2.TabIndex = 34;
             menuStrip2.Text = "menuStrip2";
             // 
@@ -88,7 +88,7 @@
             toolStripMenuItem5.Image = Properties.Resources.icons8_home_80;
             toolStripMenuItem5.ImageScaling = ToolStripItemImageScaling.None;
             toolStripMenuItem5.Name = "toolStripMenuItem5";
-            toolStripMenuItem5.Size = new Size(143, 104);
+            toolStripMenuItem5.Size = new Size(115, 104);
             toolStripMenuItem5.Text = "Home";
             toolStripMenuItem5.TextImageRelation = TextImageRelation.ImageAboveText;
             toolStripMenuItem5.Click += toolStripMenuItem5_Click;
@@ -99,7 +99,7 @@
             toolStripMenuItem2.ImageScaling = ToolStripItemImageScaling.None;
             toolStripMenuItem2.Margin = new Padding(0, 20, 0, 0);
             toolStripMenuItem2.Name = "toolStripMenuItem2";
-            toolStripMenuItem2.Size = new Size(143, 104);
+            toolStripMenuItem2.Size = new Size(115, 104);
             toolStripMenuItem2.Text = "Add";
             toolStripMenuItem2.TextImageRelation = TextImageRelation.ImageAboveText;
             toolStripMenuItem2.Click += toolStripMenuItem2_Click;
@@ -110,7 +110,7 @@
             toolStripMenuItem6.ImageScaling = ToolStripItemImageScaling.None;
             toolStripMenuItem6.Margin = new Padding(0, 20, 0, 0);
             toolStripMenuItem6.Name = "toolStripMenuItem6";
-            toolStripMenuItem6.Size = new Size(143, 104);
+            toolStripMenuItem6.Size = new Size(115, 104);
             toolStripMenuItem6.Text = "Show books";
             toolStripMenuItem6.TextImageRelation = TextImageRelation.ImageAboveText;
             toolStripMenuItem6.Click += toolStripMenuItem6_Click;
@@ -121,7 +121,7 @@
             toolStripMenuItem1.ImageScaling = ToolStripItemImageScaling.None;
             toolStripMenuItem1.Margin = new Padding(0, 20, 0, 0);
             toolStripMenuItem1.Name = "toolStripMenuItem1";
-            toolStripMenuItem1.Size = new Size(143, 104);
+            toolStripMenuItem1.Size = new Size(115, 104);
             toolStripMenuItem1.Text = "Show users";
             toolStripMenuItem1.TextImageRelation = TextImageRelation.ImageAboveText;
             toolStripMenuItem1.Click += toolStripMenuItem1_Click;
@@ -209,7 +209,7 @@
             button1.Name = "button1";
             button1.Size = new Size(177, 60);
             button1.TabIndex = 38;
-            button1.Text = "Cheeose";
+            button1.Text = "Selection";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
