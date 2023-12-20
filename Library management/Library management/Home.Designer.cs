@@ -38,14 +38,14 @@
             toolStripMenuItem1 = new ToolStripMenuItem();
             toolStripMenuItem6 = new ToolStripMenuItem();
             addUserToolStripMenuItem = new ToolStripMenuItem();
-            toolStripMenuItem8 = new ToolStripMenuItem();
             toolStripMenuItem9 = new ToolStripMenuItem();
+            toolStripMenuItem8 = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
-            menuStrip1.BackColor = Color.Silver;
+            menuStrip1.BackColor = Color.WhiteSmoke;
             menuStrip1.Dock = DockStyle.Left;
             menuStrip1.Font = new Font("Arial Rounded MT Bold", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
             menuStrip1.ImageScalingSize = new Size(20, 20);
@@ -58,6 +58,7 @@
             // 
             // toolStripMenuItem2
             // 
+            toolStripMenuItem2.BackColor = Color.WhiteSmoke;
             toolStripMenuItem2.DropDownItems.AddRange(new ToolStripItem[] { toolStripMenuItem3, toolStripMenuItem5, toolStripMenuItem4, toolStripMenuItem7 });
             toolStripMenuItem2.Image = Properties.Resources.icons8_add_80;
             toolStripMenuItem2.ImageScaling = ToolStripItemImageScaling.None;
@@ -69,11 +70,11 @@
             // 
             // toolStripMenuItem3
             // 
-            toolStripMenuItem3.BackColor = Color.Aqua;
+            toolStripMenuItem3.BackColor = Color.Gainsboro;
             toolStripMenuItem3.Image = Properties.Resources.icons8_add_user_80;
             toolStripMenuItem3.ImageScaling = ToolStripItemImageScaling.None;
             toolStripMenuItem3.Name = "toolStripMenuItem3";
-            toolStripMenuItem3.Size = new Size(275, 86);
+            toolStripMenuItem3.Size = new Size(284, 86);
             toolStripMenuItem3.Text = "Add user";
             toolStripMenuItem3.TextAlign = ContentAlignment.BottomCenter;
             toolStripMenuItem3.TextImageRelation = TextImageRelation.ImageAboveText;
@@ -81,11 +82,11 @@
             // 
             // toolStripMenuItem5
             // 
-            toolStripMenuItem5.BackColor = Color.Aqua;
+            toolStripMenuItem5.BackColor = Color.Gainsboro;
             toolStripMenuItem5.Image = Properties.Resources.icons8_book_80;
             toolStripMenuItem5.ImageScaling = ToolStripItemImageScaling.None;
             toolStripMenuItem5.Name = "toolStripMenuItem5";
-            toolStripMenuItem5.Size = new Size(275, 86);
+            toolStripMenuItem5.Size = new Size(284, 86);
             toolStripMenuItem5.Text = "Add book";
             toolStripMenuItem5.TextAlign = ContentAlignment.BottomCenter;
             toolStripMenuItem5.TextImageRelation = TextImageRelation.ImageAboveText;
@@ -93,11 +94,11 @@
             // 
             // toolStripMenuItem4
             // 
-            toolStripMenuItem4.BackColor = Color.Aqua;
+            toolStripMenuItem4.BackColor = Color.Gainsboro;
             toolStripMenuItem4.Image = Properties.Resources.icons8_book_shelf_80;
             toolStripMenuItem4.ImageScaling = ToolStripItemImageScaling.None;
             toolStripMenuItem4.Name = "toolStripMenuItem4";
-            toolStripMenuItem4.Size = new Size(275, 86);
+            toolStripMenuItem4.Size = new Size(284, 86);
             toolStripMenuItem4.Text = "Add book shelf";
             toolStripMenuItem4.TextAlign = ContentAlignment.BottomCenter;
             toolStripMenuItem4.TextImageRelation = TextImageRelation.ImageAboveText;
@@ -105,11 +106,11 @@
             // 
             // toolStripMenuItem7
             // 
-            toolStripMenuItem7.BackColor = Color.Aqua;
+            toolStripMenuItem7.BackColor = Color.Gainsboro;
             toolStripMenuItem7.Image = Properties.Resources.icons8_trust_64;
             toolStripMenuItem7.ImageScaling = ToolStripItemImageScaling.None;
             toolStripMenuItem7.Name = "toolStripMenuItem7";
-            toolStripMenuItem7.Size = new Size(275, 86);
+            toolStripMenuItem7.Size = new Size(284, 86);
             toolStripMenuItem7.Text = "Lending book";
             toolStripMenuItem7.TextAlign = ContentAlignment.BottomCenter;
             toolStripMenuItem7.TextImageRelation = TextImageRelation.ImageAboveText;
@@ -148,17 +149,6 @@
             addUserToolStripMenuItem.TextImageRelation = TextImageRelation.ImageAboveText;
             addUserToolStripMenuItem.Click += addUserToolStripMenuItem_Click;
             // 
-            // toolStripMenuItem8
-            // 
-            toolStripMenuItem8.Image = (Image)resources.GetObject("toolStripMenuItem8.Image");
-            toolStripMenuItem8.ImageScaling = ToolStripItemImageScaling.None;
-            toolStripMenuItem8.Margin = new Padding(0, 20, 0, 0);
-            toolStripMenuItem8.Name = "toolStripMenuItem8";
-            toolStripMenuItem8.Size = new Size(159, 88);
-            toolStripMenuItem8.Text = "Show deposits";
-            toolStripMenuItem8.TextImageRelation = TextImageRelation.ImageAboveText;
-            toolStripMenuItem8.Click += toolStripMenuItem8_Click;
-            // 
             // toolStripMenuItem9
             // 
             toolStripMenuItem9.Image = (Image)resources.GetObject("toolStripMenuItem9.Image");
@@ -170,10 +160,22 @@
             toolStripMenuItem9.TextImageRelation = TextImageRelation.ImageAboveText;
             toolStripMenuItem9.Click += toolStripMenuItem9_Click;
             // 
+            // toolStripMenuItem8
+            // 
+            toolStripMenuItem8.Image = (Image)resources.GetObject("toolStripMenuItem8.Image");
+            toolStripMenuItem8.ImageScaling = ToolStripItemImageScaling.None;
+            toolStripMenuItem8.Margin = new Padding(0, 20, 0, 0);
+            toolStripMenuItem8.Name = "toolStripMenuItem8";
+            toolStripMenuItem8.Size = new Size(159, 88);
+            toolStripMenuItem8.Text = "Show deposits";
+            toolStripMenuItem8.TextImageRelation = TextImageRelation.ImageAboveText;
+            toolStripMenuItem8.Click += toolStripMenuItem8_Click;
+            // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
             ClientSize = new Size(1414, 719);
             Controls.Add(menuStrip1);
             Icon = (Icon)resources.GetObject("$this.Icon");

@@ -44,7 +44,7 @@
             // 
             // menuStrip2
             // 
-            menuStrip2.BackColor = Color.Silver;
+            menuStrip2.BackColor = Color.WhiteSmoke;
             menuStrip2.Font = new Font("Arial Rounded MT Bold", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
             menuStrip2.ImageScalingSize = new Size(20, 20);
             menuStrip2.Items.AddRange(new ToolStripItem[] { toolStripMenuItem5, toolStripMenuItem2, toolStripMenuItem6 });
@@ -109,7 +109,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.White;
+            panel1.BackColor = Color.WhiteSmoke;
             panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(search);
             panel1.Location = new Point(413, 132);
@@ -129,6 +129,7 @@
             // 
             // search
             // 
+            search.BackColor = Color.WhiteSmoke;
             search.BorderStyle = BorderStyle.None;
             search.Cursor = Cursors.IBeam;
             search.Font = new Font("Arial Rounded MT Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
@@ -143,7 +144,7 @@
             // 
             AutoScaleMode = AutoScaleMode.None;
             AutoScroll = true;
-            BackColor = Color.WhiteSmoke;
+            BackColor = Color.White;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1155, 593);
             Controls.Add(panel1);
